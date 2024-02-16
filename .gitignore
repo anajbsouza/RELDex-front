@@ -1,0 +1,29 @@
+# Arquivos que não vão subir para o diretório no github
+
+# Arquivos de build e distribuição
+/build/
+/dist/
+/out/
+/.next/
+
+# Dependências geradas pelo npm ou yarn
+/node_modules/
+/.pnp/
+.pnp.js
+
+# Arquivos de ambiente local
+.env
+.env.local
+.env.*.local
+
+# Arquivos temporários ou de backup
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos gerados por editores de texto
+.vscode/
+*.swp
+.DS_Store
+thumbs.db
